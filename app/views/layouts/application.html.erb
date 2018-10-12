@@ -4,12 +4,12 @@
     <title>RemoteContent</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body style="text-align: center">
     <%= yield %>
+    <script src="<%= ENV['remote_root'] || 'http://localhost:3001/js_content.js?first_hash=1' %>" type="text/javascript"></script>
   </body>
 </html>

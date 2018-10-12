@@ -1,0 +1,10 @@
+var meta = document.createElement('meta');
+meta.httpEquiv = "MY --  X-UA-Compatible";
+meta.content = "IE=edge";
+document.getElementsByTagName('head')[0].appendChild(meta);
+
+console.log("Variant: <%= @variant %>");
+
+var div = document.createElement('div');
+div.textContent = "Variant: <%= @variant %>";
+document.getElementsByTagName('body')[0].appendChild(div);
