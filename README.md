@@ -28,5 +28,5 @@ Here is the example client:
 
 ## License
 
-The MIT License (MIT) - see [`LICENSE.md`](https://github.com/ismailakbudak/remote_js_content_for_AB_test/edit/master/LICENSE.md) for more details
+The MIT License (MIT) - see [`LICENSE.md`](https://github.com/ismailakbudak/remote_js_content_for_AB_test/edit/master/LICENSE) for more details
 
