@@ -9,7 +9,7 @@ class WelcomeController < ApplicationController
     hash = if params[:first_hash]
              { cats: 5, dogs: 1, mices: 1 }
            else
-             { panda: 1, bear: 1}
+             { panda: 1, bear: 1, ola: 1 }
            end
     @variant = random_weighted(hash)
     render :js_content, layout: false
