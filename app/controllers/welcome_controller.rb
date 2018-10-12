@@ -7,7 +7,7 @@ class WelcomeController < ApplicationController
 
   def js_content
     hash = if params[:first_hash]
-             { cats: 5, dogs: 1, mices: 1 }
+             { cats: 5, dogs: 1, mice: 1 }
            else
              { panda: 1, bear: 1, ola: 1 }
            end
